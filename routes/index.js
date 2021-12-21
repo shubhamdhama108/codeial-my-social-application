@@ -6,7 +6,7 @@ const homeController = require('../controllers/home_controller');
 console.log('router is loaded');
 
 router.get('/',homeController.home);
-router.use('/users',require('./user_profile')); 
+router.use('/users',require('./users')); 
 
 
 
