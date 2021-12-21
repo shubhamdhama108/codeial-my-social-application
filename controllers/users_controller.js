@@ -1,6 +1,6 @@
 module.exports.profile= function(req,res){
 
-    return res.render('users',{  //this home here is for home.ejs
+    return res.render('user_profile',{  //this home here is for home.ejs
         title:"Shubham"
     });
 
